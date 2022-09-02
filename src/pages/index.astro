@@ -1,32 +1,22 @@
 ---
 import Layout from '../layouts/Layout.astro';
-// import Card from '../components/Card.astro';
 ---
 
 <Layout title="Sam Hankins // Product Designer">
 	<main class="mt-8 mb-4">
 		<img src="headshot.jpg" alt="image description" class="w-48 mb-8 rounded-full"/>
 		<h1 class="text-gradient text-6xl mb-2">Sam Hankins</h1>
-<!-- social icons -->
-		<div class="mb-8">
-			<ul>
-				<li class="inline mr-4 hover:text-indigo-700 hover:cursor-pointer"><a href="mailto:sam@iamsamhankins.com"><i class="fa-regular fa-envelope fa-xl"></i></a></li>
-				<li class="inline mr-4 hover:text-indigo-700 hover:cursor-pointer"><a href="https://www.linkedin.com/in/samanthahankins/"><i class="fa-brands fa-linkedin-in fa-xl"></i></a></li>
-				<li class="inline mr-4 hover:text-indigo-700 hover:cursor-pointer"><a href="https://www.instagram.com/inthecheapseats/"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
-				<li class="inline mr-4 hover:text-indigo-700 hover:cursor-pointer"><a href="https://twitter.com/theysamtheirs"><i class="fa-brands fa-twitter fa-xl"></i></a></li>
-			</ul>
-		</div>
 <!-- sub heading -->
 		<h2 class="text-xl font-bold">PRODUCT DESIGNER. DESIGN MENTOR.</h2>
 		<p class="text-sm">Filipinx-American. Queer. Non-binary. Neurodivergent. NYC.</p>
 	</main>
 <!-- section -->
-	<section>
+	<section class="my-8">
 		<h3 class="text-base font-bold my-2">CURRENTLY.</h3>
 		<p class="text-base mb-3">I'm a Principal Product Designer @ Vox Media leading research and design for Coral, a community engagement platform that puts safety and inclusion at the forefront of conversations around journalism.</p>
 		<p>Portfolio update in progress. Get in <a href="mailto:sam@iamsamhankins.com" class="underline font-semibold">contact</a> or check out <span class="underline font-semibold"><a href="https://www.linkedin.com/in/samanthahankins/">LinkedIn</a></span></p>
 	</section>
-	<section>
+	<section class="mb-8">
 		<h3 class="text-base font-bold my-2">DESIGN AND REPRESENTATION.</h3>
 		<p>As a designer navigating life with a newly deepened appreciation for my several identities and life experiences, I bring openness, curiosity, and vulnerability as core values to my design process and collaboration. I live with the belief that representation yields more inclusive and equitable products (and frankly, is required for any business to be successful today).</p>
 	</section>
@@ -69,11 +59,11 @@ import Layout from '../layouts/Layout.astro';
 		--astro-gradient: linear-gradient(0deg, #4f39fa, #da62c4);
 	}
 
-	main, section {
+	/* main, section {
 		margin: auto;
 		padding: 1em;
 		max-width: 60ch;
-	}
+	} */
 
 	.text-gradient {
 		font-weight: 900;
