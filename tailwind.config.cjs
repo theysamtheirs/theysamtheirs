@@ -6,8 +6,8 @@ module.exports = {
 		},
 		extend: {
 			fontFamily: {
-				'brand': ['gastromond', 'sans-serif'],
-				'sans': ['articulat-cf', 'sans-serif'],
+				'brand': ['canada-type-gibson', 'sans-serif'],
+				'sans': ['canada-type-gibson', 'sans-serif'],
 			},
 		},
 	},
