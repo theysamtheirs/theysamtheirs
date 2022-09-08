@@ -13,5 +13,9 @@
     "@astrojs/netlify": "^1.0.2",
     "@astrojs/tailwind": "^1.0.0",
     "astro": "^1.0.7"
+  },
+  "dependencies": {
+    "@fontsource/changa-one": "^4.5.8",
+    "@fontsource/twinkle-star": "^4.5.9"
   }
 }

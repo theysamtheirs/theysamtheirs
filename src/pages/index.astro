@@ -5,107 +5,32 @@ import Layout from '../layouts/Layout.astro';
 <Layout title="Sam Hankins // Product Designer">
 	<main class="mt-8 mb-4">
 		<img src="headshot.jpg" alt="image description" class="w-48 mb-8 rounded-full"/>
-		<h1 class="text-gradient text-6xl mb-2">Sam Hankins</h1>
+		<h1 class="text-7xl mb-2 font-brand">Sam Hankins</h1>
+		<h2 class="text-xl font-bold mb-2 text-gray-700">they / them / theirs</h2>
 <!-- sub heading -->
-		<h2 class="text-xl font-bold">PRODUCT DESIGNER. DESIGN MENTOR.</h2>
-		<p class="text-sm">Filipinx-American. Queer. Non-binary. Neurodivergent. NYC.</p>
+		<p class="text-2xl font-bold leading-loose">Filipinx-American. Queer. Non-binary. Neurodivergent. NYC.</p>
 	</main>
 <!-- section -->
 	<section class="my-8">
-		<h3 class="text-base font-bold my-2">CURRENTLY.</h3>
-		<p class="text-base mb-3">I'm a Principal Product Designer @ Vox Media leading research and design for Coral, a community engagement platform that puts safety and inclusion at the forefront of conversations around journalism.</p>
-		<p>Portfolio update in progress. Get in <a href="mailto:sam@iamsamhankins.com" class="underline font-semibold">contact</a> or check out <span class="underline font-semibold"><a href="https://www.linkedin.com/in/samanthahankins/">LinkedIn</a></span></p>
+		<h3 class="text-xl font-bold my-2 font-brand">Currently</h3>
+		<p class="text-lg mb-3 leading-relaxed">I'm a Principal Product Designer @ Vox Media leading research and design for Coral, a community engagement platform that puts safety and inclusion at the forefront of conversations around journalism.</p>
+		<p class="leading-loose">Portfolio update in progress. Get in <a href="mailto:sam@iamsamhankins.com" class="underline font-semibold">contact</a> or check out <span class="underline font-semibold"><a href="https://www.linkedin.com/in/samanthahankins/">LinkedIn</a></span></p>
 	</section>
 	<section class="mb-8">
-		<h3 class="text-base font-bold my-2">DESIGN AND REPRESENTATION.</h3>
-		<p>As a designer navigating life with a newly deepened appreciation for my several identities and life experiences, I bring openness, curiosity, and vulnerability as core values to my design process and collaboration. I live with the belief that representation yields more inclusive and equitable products (and frankly, is required for any business to be successful today).</p>
+		<h3 class="text-xl font-bold my-2 font-brand">Design and representation</h3>
+		<p class="text-lg leading-relaxed">As a designer navigating life with a newly deepened appreciation for my several identities and life experiences, I bring openness, curiosity, and vulnerability as core values to my design process and collaboration. I live with the belief that representation yields more inclusive and equitable products (and frankly, is required for any business to be successful today).</p>
 	</section>
 	<section>
-		<h3 class="text-base font-bold my-2">EMPOWERING THE NEXT GENERATION OF DESIGNERS.</h3>
-		<p class="text-base mb-3">This also fuels my passion for teaching and welcoming thoughtful problem-solvers from underrepresented communities and career transitioners from non-tech backgrounds into the world of product design.</p>
-		<p class="text-base mb-3">I've spent close to 4 years mentoring up-and-coming designers with diverse backgrounds transitioning from other careers. As a career transitioner myself, I believe a new designer's greatest asset is owning their past experience and using that to inform their design voice. As a mentor, I help people refine their product-thinking skills, develop confidence in their unique history, and make sure these two things come together to produce a well-thought-out portfolio and radiate during their job interviews.</p>
-		<p class="text-base mb-3">My past students and mentees now work at companies like Apple, Microsoft, Chegg, Slalom, Flickr, CVS and CarMax</p>
-		<p>Interested in mentorship? <a href="mailto:sam@iamsamhankins.com" class="font-semibold underline">Let me know.</a></p>
+		<h3 class="text-xl font-bold my-2 font-brand">Empowering the next generation of designers</h3>
+		<p class="text-lg mb-4 leading-relaxed">This also fuels my passion for teaching and welcoming thoughtful problem-solvers from underrepresented communities and career transitioners from non-tech backgrounds into the world of product design.</p>
+		<p class="text-lg mb-4 leading-relaxed">I've spent close to 4 years mentoring up-and-coming designers with diverse backgrounds transitioning from other careers. As a career transitioner myself, I believe a new designer's greatest asset is owning their past experience and using that to inform their design voice. As a mentor, I help people refine their product-thinking skills, develop confidence in their unique history, and make sure these two things come together to produce a well-thought-out portfolio and radiate during their job interviews.</p>
+		<p class="text-lg  mb-3 leading-relaxed">My past students and mentees now work at companies like Apple, Microsoft, Chegg, Slalom, Flickr, CVS and CarMax</p>
+		<p class="">Interested in mentorship? <a href="mailto:sam@iamsamhankins.com" class="font-semibold underline">Let me know.</a></p>
 	</section>
 
 </Layout>
 
-<!-- <ul role="list" class="link-card-grid">
-	<Card
-		href="https://docs.astro.build/"
-		title="Documentation"
-		body="Learn how Astro works and explore the official API docs."
-	/>
-	<Card
-		href="https://astro.build/integrations/"
-		title="Integrations"
-		body="Supercharge your project with new frameworks and libraries."
-	/>
-	<Card
-		href="https://astro.build/themes/"
-		title="Themes"
-		body="Explore a galaxy of community-built starter themes."
-	/>
-	<Card
-		href="https://astro.build/chat/"
-		title="Chat"
-		body="Come say hi to our amazing Discord community. ❤️"
-	/>
-</ul> -->
-
 
 <style>
-	:root {
-		--astro-gradient: linear-gradient(0deg, #4f39fa, #da62c4);
-	}
 
-	/* main, section {
-		margin: auto;
-		padding: 1em;
-		max-width: 60ch;
-	} */
-
-	.text-gradient {
-		font-weight: 900;
-		background-image: var(--astro-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 100% 200%;
-		background-position-y: 100%;
-		border-radius: 0.4rem;
-		animation: pulse 4s ease-in-out infinite;
-	}
-
-	@keyframes pulse {
-		0%,
-		100% {
-			background-position-y: 0%;
-		}
-		50% {
-			background-position-y: 80%;
-		}
-	}
-
-	.instructions {
-		line-height: 1.6;
-		margin: 1rem 0;
-		background: #4f39fa;
-		padding: 1rem;
-		border-radius: 0.4rem;
-		color: var(--color-bg);
-	}
-
-	.instructions code {
-		font-size: 0.875em;
-		border: 0.1em solid var(--color-border);
-		border-radius: 4px;
-		padding: 0.15em 0.25em;
-	}
-
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 1rem;
-		padding: 0;
-	}
 </style>
