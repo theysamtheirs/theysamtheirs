@@ -6,8 +6,8 @@ module.exports = {
 		},
 		extend: {
 			fontFamily: {
-				'brand': ['canada-type-gibson', 'sans-serif'],
-				'sans': ['canada-type-gibson', 'sans-serif'],
+				'brand': ['gelica', 'sans-serif'],
+				'sans': ['owners-text', 'sans-serif'],
 			},
 		},
 	},

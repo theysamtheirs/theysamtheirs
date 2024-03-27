@@ -10,16 +10,17 @@
     "astro": "astro"
   },
   "devDependencies": {
-    "@astrojs/netlify": "^1.0.2",
-    "@astrojs/tailwind": "^1.0.0",
+    "@astrojs/netlify": "^5.2.0",
+    "@astrojs/tailwind": "^5.1.0",
     "@tailwindcss/typography": "^0.5.7",
-    "astro": "^1.0.7"
+    "astro": "^4.5.9"
   },
   "dependencies": {
-    "@astrojs/alpinejs": "^0.1.2",
+    "@astrojs/alpinejs": "^0.4.0",
     "@fontsource/changa-one": "^4.5.8",
     "@fontsource/twinkle-star": "^4.5.9",
     "@types/alpinejs": "^3.7.0",
-    "alpinejs": "^3.10.4"
+    "alpinejs": "^3.10.4",
+    "astro-icon": "^1.1.0"
   }
 }
