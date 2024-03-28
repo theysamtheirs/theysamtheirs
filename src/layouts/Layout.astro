@@ -19,9 +19,11 @@ import Footer from '../components/Footer.astro';
             @import url("https://use.typekit.net/zim0pfh.css");
         </style>
 	</head>
-	<body class="text-slate-800 mx-auto container max-w-4xl">
+	<body class="container max-w-screen-lg">
 		<Nav />
-		<slot />
+        <div class="">
+		    <slot />
+        </div>
         <Footer />
 	</body>
 </html>

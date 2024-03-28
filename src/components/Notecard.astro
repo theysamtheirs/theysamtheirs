@@ -1,0 +1,13 @@
+---
+const { subject, description, details, url, urlText } = Astro.props;
+
+const hasLink = url ? true : false;
+---
+
+<section class="mb-12 p-8 border border-gray-300 rounded-md shadow-solid">
+    <h1 class="text-3xl font-brand font-medium">{subject}</h1>
+    <hr class="my-4">
+    <h2 class="text-lg my-4 leading-relaxed italic">{description}</h2>
+    <p> {details}</p>
+    { hasLink ? <p class="my-4"><a href="{ url }" class="font-medium hover:underline text-pink-600"> {urlText}<i class="fa-sharp fa-solid fa-arrow-right fa-sm ml-2"></i></a></p> : '' }
+</section>
