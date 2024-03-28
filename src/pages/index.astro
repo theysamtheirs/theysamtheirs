@@ -1,13 +1,17 @@
 ---
 import Layout from '@layouts/Layout.astro';
+import { Image } from 'astro:assets';
+import headshot from '@assets/headshot.jpg';
+import { Icon } from 'astro-icon/components';
 ---
 
 <Layout title="Sam Hankins // Product Designer">
 	<main class="sm:flex">
-		<img src="headshot.jpg" alt="image description" class="mx-auto w-48 h-48 mb-8 rounded-full hover:rotate-45"/>
+        <Image src={headshot} alt="image description" class="mx-auto w-48 h-48 mb-8 rounded-full hover:rotate-45" />
         <div class="sm:ml-10">
-            <h1 class="text-5xl sm:text-8xl mt-4 mb-1 font-medium tracking-tight font-brand origin-bottom hover:-rotate-2">Sam Hankins
+            <h1 class="text-5xl sm:text-7xl mt-4 mb-1 font-medium tracking-tight font-brand origin-bottom hover:-rotate-2 inline-block align-middle mr-4">Sam Hankins
             </h1>
+            <Icon name="wave" class="text-5xl sm:text-7xl inline-block"/>
             <h3 class="text-xl sm:text-3xl leading-relaxed font-sans">I'm a researcher and designer specializing in community experiences that foster connection and prioritize safety.
             </h3>
             <h3 class="text-2xl sm:text-3xl font-semibold font-brand mt-8 tracking-tight">Currently</h3>
@@ -16,20 +20,6 @@ import Layout from '@layouts/Layout.astro';
             <p class="text-lg sm:text-xl leading-relaxed">Filipinx-American. Queer. Non-binary. Neurodivergent.</p>
         </div>
 	</main>
-<!-- section -->
-
-	<!-- <section class="mb-8">
-		<h3 class="text-2xl font-bold my-2 font-brand">Design and representation</h3>
-		<p class="text-lg leading-relaxed">As a designer navigating life with a newly deepened appreciation for my several identities and life experiences, I bring openness, curiosity, and vulnerability as core values to my design process and collaboration. I live with the belief that representation yields more inclusive and equitable products (and frankly, is required for any business to be successful today).</p>
-	</section>
-	<section>
-		<h3 class="text-2xl font-bold my-2 font-brand">Empowering the next generation of designers</h3>
-		<p class="text-lg mb-4 leading-relaxed">This also fuels my passion for teaching and welcoming thoughtful problem-solvers from underrepresented communities and career transitioners from non-tech backgrounds into the world of product design.</p>
-		<p class="text-lg mb-4 leading-relaxed">I've spent close to 4 years mentoring up-and-coming designers with diverse backgrounds transitioning from other careers. As a career transitioner myself, I believe a new designer's greatest asset is owning their past experience and using that to inform their design voice. As a mentor, I help people refine their product-thinking skills, develop confidence in their unique history, and make sure these two things come together to produce a well-thought-out portfolio and radiate during their job interviews.</p>
-		<p class="text-lg  mb-3 leading-relaxed">My past students and mentees now work at companies like Apple, Microsoft, Chegg, Slalom, Flickr, CVS and CarMax</p>
-		<p class="">Interested in mentorship? <a href="mailto:sam@iamsamhankins.com" class="font-semibold underline">Let me know.</a></p>
-	</section> -->
-
 </Layout>
 
 

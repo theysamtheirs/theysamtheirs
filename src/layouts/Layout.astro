@@ -5,6 +5,7 @@ export interface Props {
 const { title } = Astro.props as Props;
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
+import { ViewTransitions } from 'astro:transitions'
 ---
 
 <!DOCTYPE html>
@@ -20,6 +21,7 @@ import Footer from '../components/Footer.astro';
         </style>
 	</head>
 	<body class="container max-w-screen-lg">
+        <ViewTransitions />
 		<Nav />
         <div class="">
 		    <slot />
